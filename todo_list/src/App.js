@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import add_task from './pages/add_task'
+import display_task from './pages/display_task'
+import Navbar from './pages/navbar';
+import HomePage from './pages/home';
+import ThemedComponent from "./component/ThemedComponent";
+import { ThemeProvider } from "./pages/ThemeContext";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/addtask' element={<add_task />} />
+        <Route path='/displaytasks' element={<display_task />} />          
+        </Routes>
+      </BrowserRouter>
+      <div className="App">
+      <ThemeProvider>
+        <ThemedComponent />
+      </ThemeProvider>
     </div>
-  );
+    </div>);
 }
 
 export default App;

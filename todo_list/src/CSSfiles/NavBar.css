@@ -1,0 +1,35 @@
+nav {
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 2px;
+  }
+  
+  nav h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    background-color: #54744d;
+    color: #ffffff;
+  }
+  
+  nav a {
+    color: #54744d;
+    text-decoration: none;
+  }
+  
+  nav ul {
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    gap: 1rem;
+  
+    margin: 0;
+  
+    padding: 0.5rem 0;
+  
+    list-style: none;
+  
+  }
+  
