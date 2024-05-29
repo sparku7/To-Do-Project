@@ -1,17 +1,17 @@
 h1{
     text-align: center;
-    color: #54744d;
+    color: #dd5b10;
 }
 
 h2{
     text-align: left;
-    color: #54744d;
+    color: #dd5b10;
 }
 
 
 h3{
     text-align: left;
-    color: 54744d;
+   color: #dd5b10;
 }
 .grid {
     display: grid;
