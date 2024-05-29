@@ -79,16 +79,20 @@ const Create = () => {
 
 
             <label>Difficulty: </label>
-            <input type="text"
+            <select
                 required
                 value={option}
-                onChange={(e) => setOption(e.target.value)} />
+                onChange={(e) => setOption(e.target.value)}>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                    </select>
                  <br></br>
                 <br></br>
 
 
 
-            <button> Add User</button>
+            <button> Add Task</button>
 
         </form>
 

@@ -39,6 +39,14 @@
       "imageUrl": "https://th.bing.com/th/id/OIP.80B95Rv3l4KC6PK9XuOyuAHaEK?w=283&h=180&c=7&r=0&o=5&pid=1.7",
       "time": "30",
       "option": "Medium"
+    },
+    {
+      "id": "fdc6",
+      "task": "Turn of Computer",
+      "description": "It's wasting energy",
+      "imageUrl": "https://th.bing.com/th/id/OIP.R56mc_WXX0pOnFmh0Mw3jgHaFs?w=233&h=180&c=7&r=0&o=5&pid=1.7",
+      "time": "5",
+      "option": ""
     }
   ]
 }
