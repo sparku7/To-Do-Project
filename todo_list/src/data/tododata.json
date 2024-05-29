@@ -31,6 +31,14 @@
       "imageUrl": "https://res.cloudinary.com/rsc/image/upload/bo_1.5px_solid_white,b_auto,c_pad,dpr_2,f_auto,h_399,q_auto,w_710/c_pad,h_399,w_710/R9174967-01?pgw=1",
       "time": "30",
       "option": "Hard"
+    },
+    {
+      "id": "431f",
+      "task": "Wash Windows",
+      "description": "The windows are filthy, clean them ",
+      "imageUrl": "https://th.bing.com/th/id/OIP.80B95Rv3l4KC6PK9XuOyuAHaEK?w=283&h=180&c=7&r=0&o=5&pid=1.7",
+      "time": "30",
+      "option": "Medium"
     }
   ]
 }

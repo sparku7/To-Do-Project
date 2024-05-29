@@ -21,6 +21,8 @@ const Create = () => {
                 body: JSON.stringify(user)
             })
 
+            alert("Your task has been added");
+
         setTask('')
         setDescription('')
         setImageUrl('')
