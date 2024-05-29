@@ -4,16 +4,16 @@ import '../CSSfiles/NavBar.css'
 export default function Navbar() {
     return (
         <nav>
-            <h1>Marks To-Do List</h1>
+            <h1>Marks To Do List</h1>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="./addtask">Add Task</Link>
+                    <Link to="./Tasks">View Tasks</Link>
                 </li>
                 <li>
-                    <Link to="./displaytasks">Display Tasks</Link>
+                    <Link to="./AddTasks">Add Tasks</Link>
                 </li>
             </ul>
         </nav>
